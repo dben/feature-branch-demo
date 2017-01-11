@@ -1,5 +1,5 @@
 /**
- * The controller for the Compose component
+ * The controller for the Compose component test 1
  */
 class ComposeController {
   constructor($state, DialogService, AppConfig, Messages) {
@@ -69,7 +69,7 @@ class ComposeController {
  * The message might be new, a saved draft, or a reply/forward.
  * A Cancel button discards the new message and returns to the previous state.
  * A Save As Draft button saves the message to the "drafts" folder.
- * A Send button sends the message
+ * A Send button sends the message test 2
  */
 export const compose = {
   bindings: { $stateParams: '<', $transition$: '<' },
