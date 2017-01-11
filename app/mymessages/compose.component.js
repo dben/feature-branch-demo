@@ -1,5 +1,5 @@
 /**
- * The controller for the Compose component testing
+ * The controller for the Compose component
  */
 class ComposeController {
   constructor($state, DialogService, AppConfig, Messages) {
@@ -79,7 +79,7 @@ export const compose = {
   template: `
     <div class="compose">
       <div class="header">
-        <div class="flex-h"> <label>To</label> <input type="text" id="to" name="to" ng-model="$ctrl.message.to"> </div>
+        <div class="flex-h"> <label>Recipient</label> <input type="text" id="to" name="to" ng-model="$ctrl.message.to"> </div>
         <div class="flex-h"> <label>Subject is Changed</label> <input type="text" id="subject" name="subject" ng-model="$ctrl.message.subject"> </div>
       </div>
     
