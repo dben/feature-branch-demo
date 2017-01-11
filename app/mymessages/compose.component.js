@@ -1,5 +1,5 @@
 /**
- * The controller for the Compose component test 1
+ * The controller for the Compose component test 3
  */
 class ComposeController {
   constructor($state, DialogService, AppConfig, Messages) {
